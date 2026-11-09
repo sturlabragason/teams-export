@@ -1,0 +1,10 @@
+node_modules/
+profile/
+out/
+state.json
+*.tmp
+
+# local agent/fleet notes, never published
+result.md
+.env
+*.log

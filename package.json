@@ -1,0 +1,33 @@
+{
+  "name": "teams-export",
+  "version": "0.1.0",
+  "description": "Token-cheap Playwright exporter for your own MS Teams chats (no Graph)",
+  "main": "src/core.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node --check src/core.js && node --check src/live.js && node --check src/cli.js",
+    "test": "node --test test/*.test.js",
+    "login": "node src/cli.js login",
+    "export": "node src/cli.js export"
+  },
+  "license": "MIT",
+  "author": "Sturla Bragason",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sturlabragason/teams-export.git"
+  },
+  "homepage": "https://github.com/sturlabragason/teams-export#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.65.0"
+  },
+  "type": "module",
+  "bin": {
+    "teams-export": "src/cli.js"
+  },
+  "private": true
+}

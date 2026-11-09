@@ -1,0 +1,240 @@
+{
+ "_note": "Fake fixture shaped like recorded Teams chatsvc responses. No real data.",
+ "base": "https://teams.microsoft.com/api/chatsvc/emea",
+ "responses": {
+  "https://teams.microsoft.com/api/chatsvc/emea/v1/users/ME/conversations?view=msnp24Equivalent&pageSize=500&startTime=1": {
+   "conversations": [
+    {
+     "id": "19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "type": "Conversation",
+     "version": 1762000005000,
+     "threadProperties": {
+      "threadType": "chat",
+      "productThreadType": "OneToOneChat"
+     },
+     "lastMessage": {
+      "id": "1762000004000",
+      "originalarrivaltime": "2025-11-01T12:26:44.000Z"
+     }
+    },
+    {
+     "id": "19:5f2c0d7e9a8b4c3d@thread.v2",
+     "type": "Thread",
+     "version": 1762000009000,
+     "threadProperties": {
+      "threadType": "chat",
+      "topic": "Project &quot;X&quot; sync",
+      "productThreadType": "Chat"
+     },
+     "lastMessage": {
+      "id": "1762000009000"
+     }
+    },
+    {
+     "id": "19:abcdefabcdef@thread.tacv2",
+     "type": "Thread",
+     "threadProperties": {
+      "threadType": "topic",
+      "topic": "General"
+     },
+     "lastMessage": {
+      "id": "1762000000001"
+     }
+    },
+    {
+     "id": "48:notifications",
+     "type": "Conversation",
+     "threadProperties": {},
+     "lastMessage": {
+      "id": "1762000000002"
+     }
+    }
+   ],
+   "_metadata": {
+    "totalCount": 5,
+    "backwardLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations?view=msnp24Equivalent&pageSize=500&startTime=1&syncState=CONV_PAGE_2",
+    "syncState": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations?syncState=CONV_SYNC"
+   }
+  },
+  "https://teams.microsoft.com/api/chatsvc/emea/v1/users/ME/conversations?view=msnp24Equivalent&pageSize=500&startTime=1&syncState=CONV_PAGE_2": {
+   "conversations": [
+    {
+     "id": "19:meeting_ZmFrZW1lZXRpbmc@thread.v2",
+     "type": "Thread",
+     "threadProperties": {
+      "threadType": "meeting",
+      "topic": "Weekly standup"
+     },
+     "lastMessage": {}
+    }
+   ],
+   "_metadata": {
+    "totalCount": 5,
+    "syncState": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations?syncState=CONV_SYNC2"
+   }
+  },
+  "https://teams.microsoft.com/api/chatsvc/emea/v1/users/ME/conversations/19%3A11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222%40unq.gbl.spaces/messages?view=msnp24Equivalent|supportsMessageProperties&pageSize=200&startTime=1": {
+   "messages": [
+    {
+     "id": "1762000004000",
+     "clientmessageid": "1762000004007",
+     "version": "1762000004000",
+     "conversationid": "19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "type": "Message",
+     "messagetype": "RichText/Html",
+     "contenttype": "text",
+     "content": "<p>See you at 10&nbsp;&amp; bring the <b>slides</b></p>",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:22222222-2222-2222-2222-222222222222",
+     "imdisplayname": "Alice Example",
+     "composetime": "2025-11-01T12:26:44.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:44.000Z",
+     "properties": {},
+     "amsreferences": []
+    },
+    {
+     "id": "1762000003000",
+     "clientmessageid": "1762000003007",
+     "version": "1762000003000",
+     "conversationid": "19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "type": "Message",
+     "messagetype": "Text",
+     "contenttype": "text",
+     "content": "ok 👍",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:11111111-1111-1111-1111-111111111111",
+     "imdisplayname": "Test User",
+     "composetime": "2025-11-01T12:26:43.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:43.000Z",
+     "properties": {},
+     "amsreferences": []
+    }
+   ],
+   "_metadata": {
+    "backwardLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19%3A11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222%40unq.gbl.spaces/messages?view=msnp24Equivalent|supportsMessageProperties&pageSize=200&startTime=1&syncState=ONE_PAGE_2",
+    "syncState": "x",
+    "lastCompleteSegmentStartTime": 1762000000000
+   }
+  },
+  "https://teams.microsoft.com/api/chatsvc/emea/v1/users/ME/conversations/19%3A11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222%40unq.gbl.spaces/messages?view=msnp24Equivalent|supportsMessageProperties&pageSize=200&startTime=1&syncState=ONE_PAGE_2": {
+   "messages": [
+    {
+     "id": "1762000002000",
+     "clientmessageid": "1762000002007",
+     "version": "1762000002000",
+     "conversationid": "19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "type": "Message",
+     "messagetype": "RichText/Html",
+     "contenttype": "text",
+     "content": "<div>Here is the doc</div>",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:22222222-2222-2222-2222-222222222222",
+     "imdisplayname": "Alice Example",
+     "composetime": "2025-11-01T12:26:42.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:42.000Z",
+     "properties": {
+      "files": "[{\"@type\":\"http://schema.skype.com/File\",\"fileName\":\"Q3-plan.docx\",\"fileType\":\"docx\",\"objectUrl\":\"https://contoso-my.sharepoint.com/personal/alice/Documents/Q3-plan.docx\"}]"
+     },
+     "amsreferences": []
+    },
+    {
+     "id": "1762000001000",
+     "clientmessageid": "1762000001007",
+     "version": "1762000001000",
+     "conversationid": "19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:11111111-1111-1111-1111-111111111111_22222222-2222-2222-2222-222222222222@unq.gbl.spaces",
+     "type": "Message",
+     "messagetype": "Text",
+     "contenttype": "text",
+     "content": "Hi Alice<br>line two &lt;tag&gt; &#8364;5",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:11111111-1111-1111-1111-111111111111",
+     "imdisplayname": "Test User",
+     "composetime": "2025-11-01T12:26:41.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:41.000Z",
+     "properties": {},
+     "amsreferences": []
+    }
+   ],
+   "_metadata": {}
+  },
+  "https://teams.microsoft.com/api/chatsvc/emea/v1/users/ME/conversations/19%3A5f2c0d7e9a8b4c3d%40thread.v2/messages?view=msnp24Equivalent|supportsMessageProperties&pageSize=200&startTime=1": {
+   "messages": [
+    {
+     "id": "1762000009000",
+     "clientmessageid": "1762000009007",
+     "version": "1762000009000",
+     "conversationid": "19:5f2c0d7e9a8b4c3d@thread.v2",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:5f2c0d7e9a8b4c3d@thread.v2",
+     "type": "Message",
+     "messagetype": "RichText/Html",
+     "contenttype": "text",
+     "content": "<p>Screenshot:</p><p><img itemtype=\"http://schema.skype.com/AMSImage\" src=\"https://eu-api.asm.skype.com/v1/objects/0-weu-d1-abc/views/imgo\" width=\"250\"></p>",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:33333333-3333-3333-3333-333333333333",
+     "imdisplayname": "Bob Example",
+     "composetime": "2025-11-01T12:26:49.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:49.000Z",
+     "properties": {},
+     "amsreferences": []
+    },
+    {
+     "id": "1762000008500",
+     "clientmessageid": "1762000008507",
+     "version": "1762000008500",
+     "conversationid": "19:5f2c0d7e9a8b4c3d@thread.v2",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:5f2c0d7e9a8b4c3d@thread.v2",
+     "type": "Message",
+     "messagetype": "RichText/Html",
+     "contenttype": "text",
+     "content": "",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:33333333-3333-3333-3333-333333333333",
+     "imdisplayname": "Bob Example",
+     "composetime": "2025-11-01T12:26:48.500Z",
+     "originalarrivaltime": "2025-11-01T12:26:48.500Z",
+     "properties": {
+      "deletetime": 1762000008600
+     },
+     "amsreferences": []
+    },
+    {
+     "id": "1762000008000",
+     "clientmessageid": "1762000008007",
+     "version": "1762000008000",
+     "conversationid": "19:5f2c0d7e9a8b4c3d@thread.v2",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:5f2c0d7e9a8b4c3d@thread.v2",
+     "type": "Message",
+     "messagetype": "ThreadActivity/AddMember",
+     "contenttype": "text",
+     "content": "<addmember><eventtime>1</eventtime><target>8:orgid:x</target></addmember>",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:11111111-1111-1111-1111-111111111111",
+     "imdisplayname": "Test User",
+     "composetime": "2025-11-01T12:26:48.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:48.000Z",
+     "properties": {},
+     "amsreferences": []
+    },
+    {
+     "id": "1762000007000",
+     "clientmessageid": "1762000007007",
+     "version": "1762000007000",
+     "conversationid": "19:5f2c0d7e9a8b4c3d@thread.v2",
+     "conversationLink": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/conversations/19:5f2c0d7e9a8b4c3d@thread.v2",
+     "type": "Message",
+     "messagetype": "RichText/Html",
+     "contenttype": "text",
+     "content": "<p>Kickoff for <span itemtype=\"http://schema.skype.com/Mention\" itemid=\"0\">Bob Example</span></p>",
+     "from": "https://emea.ng.msg.teams.microsoft.com/v1/users/ME/contacts/8:orgid:11111111-1111-1111-1111-111111111111",
+     "imdisplayname": "Test User",
+     "composetime": "2025-11-01T12:26:47.000Z",
+     "originalarrivaltime": "2025-11-01T12:26:47.000Z",
+     "properties": {},
+     "amsreferences": []
+    }
+   ],
+   "_metadata": {}
+  },
+  "https://teams.microsoft.com/api/chatsvc/emea/v1/users/ME/conversations/19%3Ameeting_ZmFrZW1lZXRpbmc%40thread.v2/messages?view=msnp24Equivalent|supportsMessageProperties&pageSize=200&startTime=1": {
+   "messages": [],
+   "_metadata": {}
+  }
+ }
+}
