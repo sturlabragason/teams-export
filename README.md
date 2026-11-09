@@ -31,13 +31,19 @@ Requires Node 18+ (tested on 22).
 node src/cli.js login
 ```
 
-A browser window opens on teams.microsoft.com. Complete SSO/MFA. When Teams loads your chats,
-the tool detects a chat-service request, waits 5 s so the profile is saved, closes the window
-and prints `login ok`. The session is stored in `./profile/`. **Treat that folder like a
+This opens a **visible** Chromium window on teams.microsoft.com, even on machines where `export`
+runs headless. You sign in yourself, including SSO and MFA. The tool never sees your password or
+MFA code. When Teams loads your chats, the tool detects an authenticated chat-service request, waits
+5 s so the session is saved, closes the window and prints `login ok`. If you close the window first
+or nothing happens for 10 minutes, it prints `login not confirmed: closed|timeout` and exits 1.
+
+The session is stored in `./profile/` (change it with `--profile DIR`). **Treat that folder like a
 password.** It is git-ignored.
 
 Run `login` again when `export` reports `not logged in` (for example when the refresh token expires
 or after a password change or Conditional Access prompt).
+
+AI agents: see [AGENTS.md](AGENTS.md).
 
 ## Export
 
